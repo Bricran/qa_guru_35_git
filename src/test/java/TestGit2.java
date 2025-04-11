@@ -8,7 +8,7 @@ public class TestGit2 {
     @Test
     void successfulSearchTest1() {
         open("https://ya.ru/");
-        $("[name=text]").setValue("selenide").pressEnter();
+        $("[name=11111text]").setValue("selenide").pressEnter();
         $("[id=search-result]").shouldHave(text("ru.selenide.org"));
     }
     @Test
