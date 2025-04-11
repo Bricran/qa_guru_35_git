@@ -14,7 +14,7 @@ public class TestGit2 {
     @Test
     void successfulSearchTest2() {
         open("https://www.bing.com/");
-        $("[name=q]").setValue("selenide").pressEnter();
-        $("[id=b_results]").shouldHave(text("https://selenide.org"));
+        $("[name=qqqq]").setValue("selenide").pressEnter();
+        $("[id=b_results]").shouldHave(text("https://selenide.orgqqqqqq"));
     }
 }
